@@ -15,7 +15,7 @@ typing_effect = function(string, dom_id, do_erase){
           setTimeout('erase_string()', 500);
           return true;
       }
-      $('#typing_list').append(val);
+      $(dom_id).append(val);
       index += 1;
     }, 50);
   }
