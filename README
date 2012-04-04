@@ -1,0 +1,11 @@
+JavaScript and jQuery based single line typing_effect
+
+You need to include the typing-effect.js in html page and define an empty dom element such as div with id defined.
+
+
+then use typing_effect('This is a sample string for testing single line typing effect!', '#typing_line', true); in either script tag or your .js file
+
+first parameter: string to be used for typing effect
+second parameter: id of the dom element
+third parameter: true, if you want to earse as well after a little pause, false: if you want to keep it after typing complete
+
