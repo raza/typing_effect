@@ -34,6 +34,7 @@ typing_effect = function(strings_array, dom_id){
         if(strings_index < strings_length){
           string_index = 0;
           string = strings_array[strings_index];
+          string_length = string.length;
           setTimeout("type_string()", 500);
         }
         return true;
